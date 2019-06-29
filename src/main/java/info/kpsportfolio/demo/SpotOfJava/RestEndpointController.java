@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class RestEndpointController {
     
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "A spot of Java hello for you!";
     }
     
 }
