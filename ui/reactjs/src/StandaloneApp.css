@@ -298,7 +298,7 @@ a.Gospel:hover {
   display: inline-block;
   border-radius: 5px;
   padding: 10px;
-  #background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
   background-color: #e00000;
   content: attr(gospel-tooltip);
   color: #f9f9f9;
@@ -306,7 +306,7 @@ a.Gospel:hover {
   bottom: auto;
   width: 150px;
   left: auto;
-  #transform: translate(-50%, 0);
+  /* transform: translate(-50%, 0); */
   transform: translate(0, -50%);
   margin-bottom: 0px;
   text-align: center;
@@ -328,7 +328,7 @@ a.Gospel:hover {
   content: '';
   left: auto;
   right: 100%;
-  #transform: translate(-50%, 0);
+  /* transform: translate(-50%, 0); */
   transform: rotate(-90deg) translate(0, -50%);
   margin-bottom: 0;
   top: 50%;
@@ -388,7 +388,7 @@ a.Gospel:hover {
   bottom: auto;
   left: 950px;
   width: 150px;
-  #transform: translate(-50%, 0);
+  /*transform: translate(-50%, 0);*/
   transform: translate(0, -50%);
   margin-bottom: 0px;
   text-align: center;
@@ -484,7 +484,6 @@ a.Gospel:hover {
   border-color: #808080;
   border-width: 5px;
 }
-
 
 a.SOJ:link, a:visited {
   color:  darkred;

@@ -29,7 +29,7 @@ export default class NavMenu extends Component {
     return(
       <div className="NavMenu">
         <div>&nbsp;</div>
-        <div>&nbsp;<i className="far fa-folder" style={{"color": "#ffffff"}}>&nbsp;&nbsp;</i><a href="javascript:void(0)" onClick={this.displaySpotOfJavaDemo}>SpotOfJava&nbsp;Demo</a></div>
+        <div>&nbsp;<i className="far fa-folder" style={{"color": "#ffffff"}}>&nbsp;&nbsp;</i><a href="#" onClick={this.displaySpotOfJavaDemo}>SpotOfJava&nbsp;Demo</a></div>
         <div>&nbsp;</div>
       </div>
     );
