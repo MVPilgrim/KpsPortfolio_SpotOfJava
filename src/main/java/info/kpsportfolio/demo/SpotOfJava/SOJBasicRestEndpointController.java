@@ -51,7 +51,7 @@ public class SOJBasicRestEndpointController {
       generator.writeStringField("rc", "0");
       generator.writeStringField("errmsg", "ok");
       generator.writeStringField("cmd", "hello");
-      generator.writeStringField("msg", "A SportOfJava hello for you!");
+      generator.writeStringField("msg", "A SpotOfJava hello for you!");
       
       generator.writeFieldName("src");
       String srcCode = getSrcCode(begin_SOJBasic_hello_DlmLine,end_SOJBasic_hello_DlmLine);
@@ -70,10 +70,8 @@ public class SOJBasicRestEndpointController {
     
     return retVal;
   }
-//-----END /SOJBasic/hello-----
   
   String getSrcCode(String beginDlmLine, String endDlmLine) throws IOException{
-    String srcCode = "";
     
     InputStream in        = this.getClass().getClassLoader().getResourceAsStream(srcFile);
     InputStreamReader inr = new InputStreamReader(in);
@@ -86,13 +84,11 @@ public class SOJBasicRestEndpointController {
         while((line = br.readLine()) != null && !Pattern.matches(".*" + endDlmLine + ".*", line)) {
           sb.append(line + "<br>"); 
         }
+        //return sb.toString();
       } 
     }
-    
-    srcCode = sb.toString();
-    
-    return srcCode;
-    
+    return sb.toString();
   }
+//-----END /SOJBasic/hello-----
 }
 //-----END /SOJBasic-----

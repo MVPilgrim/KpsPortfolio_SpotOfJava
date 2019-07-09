@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-//import ReactDOM, {DOMComponent} from 'react-dom'
 
 export default class SOJPopupAbout extends Component {
   constructor(props) {
@@ -22,7 +21,8 @@ export default class SOJPopupAbout extends Component {
           <h1>About Spot of Java</h1>
           <div className="PopupTextBody">
             <p>
-              The SpotOfJava Demonstration provides a number of "Spots of Java" to illustrate various Java capabilities.
+              The SpotOfJava Demonstration currently has a single "Spot of Java" - a "Hello World!" implementation. Over time, I plan on adding
+              more "Spots" to demonstrate proficiency with various Java capabilities.
             </p>
           </div>
         </div>
