@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-//import ReactDOM, {DOMComponent} from 'react-dom'
 
 export default class SOJPopupDirections extends Component {
   constructor(props) {
