@@ -1,7 +1,7 @@
 import React, {Component}       from 'react'
 //import ReactDOM, {DOMComponent} from 'react-dom'
 
-import Button             from './Button.js'
+import ButtonSpotOfJava   from './ButtonSpotOfJava.js'
 import TopBar             from './TopBar.js'
 import SOJPopupAbout      from './SOJPopupAbout.js'
 import SOJPopupBasic      from './SOJPopupBasic.js'
@@ -53,9 +53,9 @@ export default class SpotOfJavaPane extends Component {
       <div>
         <TopBar className="SpotOfJavaDemoTopBar displayHeading={true}"/>
 
-        <Button label="About" style={{"left": "9.5%"}} handleClick={this.handleAboutButtonClick}/>
-        <Button label="Directions" style={{"left": "12.0%", "width": "60px"}} handleClick={this.handleDirectionsButtonClick}/>
-        <Button label="SOJ Basic" style={{"left": "16.0%", "width": "80px"}} handleClick={this.handleBasicButtonClick}/>
+        <ButtonSpotOfJava label="About" style={{"left": "9.5%"}} handleClick={this.handleAboutButtonClick}/>
+        <ButtonSpotOfJava label="Directions" style={{"left": "12.0%", "width": "60px"}} handleClick={this.handleDirectionsButtonClick}/>
+        <ButtonSpotOfJava label="SOJ Basic" style={{"left": "16.0%", "width": "80px"}} handleClick={this.handleBasicButtonClick}/>
 
         <div className="SpotOfJavaDemoHeading">Spot-of-Java Demo</div>
 
